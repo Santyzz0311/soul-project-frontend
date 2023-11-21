@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { AiOutlineShoppingCart } from "react-icons/ai";
+
 export default function NavBar() {
 
   const buttonSesions = {
