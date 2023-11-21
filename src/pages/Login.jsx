@@ -5,10 +5,6 @@ import { Link } from "react-router-dom";
 
 export default function Login() {
 
-  const goBack = () => {
-    window.history.back()
-  }
-
   return (
     <main className="h-screen flex justify-center items-center">
       <section className="w-1/3 h-1/2 bg-slate-400 shadow-lg rounded-md p-4">

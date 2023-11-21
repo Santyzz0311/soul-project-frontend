@@ -11,11 +11,11 @@ export default function Footer() {
             />
             <div className="absolute inset-8 text-white grid gap-y-4 font-bold">
               <div className="flex justify-center items-center relative">
-                <h3 className="uppercase inline-block text-4xl font-extrabold bg-gradient-to-r from-fuchsia-950 via-zinc-800 to-gray-900 text-transparent bg-clip-text ">
+                <h3 className="uppercase inline-block text-4xl font-extrabold bg-gradient-to-r from-blue-900 via-white-950 to-fuchsia-900 text-transparent bg-clip-text ">
                   Protegemos tú salud brindándote
                   <br />
                   la mejor atención y medicamentos
-                  <div className="absolute inset-0 blur-3xl opacity-50 bg-gradient-to-r from-fuchsia-950 via-zinc-800 to-gray-900 animate-pulse" />
+                  <div className="absolute inset-0 blur-3xl opacity-50 bg-gradient-to-r from-fubluefrom-blue-900 via-white-950 to-fuchsia-900 animate-pulse" />
                 </h3>
               </div>
             </div>
