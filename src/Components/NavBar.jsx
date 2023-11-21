@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import SearchProductsBar from "./SearchProductsBar";
 import { AiOutlineShoppingCart } from "react-icons/ai";
 export default function NavBar() {
@@ -26,9 +27,9 @@ export default function NavBar() {
             </button>
           </li>
           <li>
-            <button className={buttonSesions.className}>
+            <Link to="/login" className={buttonSesions.className}>
               {buttonSesions.logIn}
-            </button>
+            </Link>
           </li>
           <li className="flex justify-center items-center">
             <button>

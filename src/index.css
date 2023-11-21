@@ -2,6 +2,12 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  font-family: "Poppins", sans-serif;
+.bg-gradient-principal {
+  background: rgb(171, 169, 201);
+  background: linear-gradient(
+    90deg,
+    rgba(171, 169, 201, 1) 0%,
+    rgba(127, 127, 170, 1) 35%,
+    rgba(34, 149, 172, 1) 100%
+  );
 }

@@ -1,18 +1,24 @@
-import { Route, Routes } from 'react-router'
+import { Route, Routes, useLocation } from 'react-router'
 import './App.css'
-import NavBar from './Components/NavBar'
+import NavBar from './components/NavBar'
+import Home from './pages/Home'
 import Login from './pages/Login'
+import Footer from './Components/Footer'
 
 function App() {
+
+  const location = useLocation()
+
+  const isLoginPage = location.pathname === '/login'
+
   return (
     <>
+      {isLoginPage ? null : <NavBar />}
       <Routes>
-        <Route path='/' Component={Login} />
+        <Route path='/' Component={Home} />
+        <Route path='/login' Component={Login} />
       </Routes>
-      {/* <NavBar />
-      <main className='w-4/5  mx-auto'>
-
-      </main> */}
+      {isLoginPage ? null : <Footer />}
     </>
   )
 }
