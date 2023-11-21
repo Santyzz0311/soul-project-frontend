@@ -3,7 +3,7 @@ import { PAGE_SERVICES } from '../utils/constants'
 
 export default function Home() {
   return (
-    <div className="flex flex-col gap-y-4 px-5 pb-3 w-11/12 mx-auto">
+    <main className="flex flex-col gap-y-4 px-5 pb-3 w-11/12 mx-auto">
       <div className='grid grid-cols-2 my-12 gap-x-6'>
         <section className='flex items-center'>
           <div className="h-1/2">
@@ -43,6 +43,6 @@ export default function Home() {
           </ul>
         </section>
       </div>
-    </div>
+    </main>
   )
 }
