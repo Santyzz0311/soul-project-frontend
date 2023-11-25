@@ -1,11 +1,12 @@
 import React from 'react'
 
-function Product({ nombre, precio, cantidad_stock, categoria, descripcion }) {
+function Product({ nombre, precio, cantidad_stock, categoria, descripcion, picture }) {
+    console.log(picture)
   return (
 
-<div className="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow ">
-    <a href="#">
-        <img className="p-8 rounded-t-lg" src="https://www.ktronix.com/medias/194253423232-001-820Wx820H?context=bWFzdGVyfGltYWdlc3wyOTU1MjV8aW1hZ2UvanBlZ3xhRGc1TDJoa1pDOHhNelF4TXpReU5qazFOREkzTUM4eE9UUXlOVE0wTWpNeU16SmZNREF4WHpneU1GZDRPREl3U0F8OGFhODRjNzVhM2UzYTVhMGYwYTA3ZTlkNzYzMDk1ZjNlMGEyOWUxMzUzMjk0MThkODZiYjg4MjcyNmU2N2IxNg" alt="product image" />
+<div className="w-full max-w-md bg-white border border-gray-200 rounded-lg shadow ">
+    <a href="#" className='flex justify-center '>
+        {picture ? <img className="p-8 rounded-t-lg max-h-96" src={picture} alt="product image" /> : <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-primary my-5" />}
     </a>
     <div className="px-5 pb-5">
         <a href="#">

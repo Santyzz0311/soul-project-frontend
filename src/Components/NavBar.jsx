@@ -48,16 +48,18 @@ export default function NavBar() {
                 <AiOutlineUser size="2em" />
               </button>
             </Link>
-            <button
-              type="button"
-              className="flex text-sm bg-gray-800 rounded-full md:me-0 p-2 focus:ring-4 focus:ring-gray-300 "
-              id="user-menu-button"
-              aria-expanded="false"
-              data-dropdown-toggle="user-dropdown"
-              data-dropdown-placement="bottom"
-            >
-              <AiOutlineShoppingCart size="2em" />
-            </button>
+            <Link to="/cart">
+              <button
+                type="button"
+                className="flex text-sm bg-gray-800 rounded-full md:me-0 p-2 focus:ring-4 focus:ring-gray-300 "
+                id="user-menu-button"
+                aria-expanded="false"
+                data-dropdown-toggle="user-dropdown"
+                data-dropdown-placement="bottom"
+              >
+                <AiOutlineShoppingCart size="2em" />
+              </button>
+            </Link>
 
           </div>
           <div
