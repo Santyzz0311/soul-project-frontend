@@ -11,7 +11,7 @@ export default function Footer() {
             />
             <div className="absolute inset-8 text-white grid gap-y-4 font-bold">
               <div className="flex justify-center items-center relative">
-                <h3 className="uppercase inline-block text-4xl font-extrabold bg-gradient-to-r from-blue-700 via-slate-400 to-fuchsia-900 text-transparent bg-clip-text ">
+                <h3 className="uppercase inline-block text-4xl font-extrabold bg-gradient-to-r from-slate-200 via-white-950 to-fuchsia-300 text-transparent bg-clip-text ">
                   Protegemos tus compras y ventas
                   <br />
                   con la mayor seguridad y eficacia

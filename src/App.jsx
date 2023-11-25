@@ -5,8 +5,8 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Footer from './Components/Footer'
 import Products from './pages/Products'
-import Cart from './pages/Cart'
 import SellProduct from './pages/SellProduct'
+import Cart from './pages/CartPage'
 
 function App() {
 
