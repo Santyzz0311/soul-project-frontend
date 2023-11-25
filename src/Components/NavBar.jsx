@@ -2,12 +2,6 @@ import { Link } from "react-router-dom";
 import { AiOutlineShoppingCart, AiOutlineUser, AiOutlineUserAdd } from "react-icons/ai";
 import logo from "../assets/carrito-de-compras.png"
 export default function NavBar() {
-  const buttonSesions = {
-    logIn: "Iniciar sesión",
-    signUp: "Registrarse",
-    className:
-      "bg-secondary hover:bg-tertiary text-white font-bold py-2 px-4 rounded",
-  };
 
   return (
     <header className="bg-primary h-24 font-bold sticky z-50 text-white">

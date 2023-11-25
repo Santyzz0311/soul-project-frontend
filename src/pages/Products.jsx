@@ -1,5 +1,4 @@
-import { useEffect, useEffect, useState } from "react";
-import ProductsItem from "../Components/ProductsItem";
+import { useEffect, useState } from "react";
 import axios from "axios";
 import Product from "../Components/Product";
 
@@ -35,7 +34,7 @@ export default function Products() {
         <div className="animate-spin rounded-full h-32 w-32 border-t-2 border-b-2 border-primary" />
       ) : (
         products.map((product) => (
-          <Product key={product.id} {...product} />
+          <Product key={product._id} product={product} />
         ))
       )}
       {/* 
