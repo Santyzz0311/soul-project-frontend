@@ -7,15 +7,15 @@ export default function Footer() {
         <div className="w-full rounded-lg -mt-20 relative z-50 h-64 lg:w-full lg:min-w-full md:mx-auto">
           <div className="relative h-full">
             <div
-              className="bg-gradient-principal w-full h-full"
+              className=" w-full h-full"
             />
             <div className="absolute inset-8 text-white grid gap-y-4 font-bold">
               <div className="flex justify-center items-center relative">
-                <h3 className="uppercase inline-block text-4xl font-extrabold bg-gradient-to-r from-blue-900 via-white-950 to-fuchsia-900 text-transparent bg-clip-text ">
+                <h3 className="uppercase inline-block text-4xl font-extrabold bg-gradient-to-r from-blue-700 via-slate-400 to-fuchsia-900 text-transparent bg-clip-text ">
                   Protegemos tus compras y ventas
                   <br />
                   con la mayor seguridad y eficacia
-                  <div className="absolute inset-0 blur-3xl opacity-50 bg-gradient-to-r from-fubluefrom-blue-900 via-white-950 to-fuchsia-900 animate-pulse" />
+                  <div className="absolute inset-0 blur-3xl opacity-50 bg-gradient-to-r from-blue-700 via-slate-400 to-fuchsia-900 animate-pulse" />
                 </h3>
               </div>
             </div>

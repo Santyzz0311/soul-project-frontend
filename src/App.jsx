@@ -5,6 +5,8 @@ import Home from './pages/Home'
 import Login from './pages/Login'
 import Footer from './Components/Footer'
 import Products from './pages/Products'
+import Cart from './pages/Cart'
+import SellProduct from './pages/SellProduct'
 
 function App() {
 
@@ -19,6 +21,8 @@ function App() {
         <Route path='/' Component={Home} />
         <Route path='/login' Component={Login} />
         <Route path='/products' Component={Products} />
+        <Route path='/cart' Component={Cart} />
+        <Route path='/sellProduct' Component={SellProduct} />
       </Routes>
       {isLoginPage ? null : <Footer />}
     </>

@@ -29,14 +29,14 @@ export default function NavBar() {
             </button>
           </li>
           <li>
-            <Link to="/login" className={buttonSesions.className}>
-              {buttonSesions.logIn}
+            <Link to="/sellProduct" className={buttonSesions.className}>
+              Vender Producto
             </Link>
           </li>
           <li className="flex justify-center items-center">
-            <button>
+            <Link to="/cart">
               <AiOutlineShoppingCart size="2em" />
-            </button>
+            </Link>
           </li>
         </ul>
       </nav>
