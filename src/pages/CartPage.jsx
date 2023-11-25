@@ -17,10 +17,13 @@ export default function CartPage() {
 
   return (
     <>
-      <div className="mx-auto container my-5">
+      <div className="mx-auto container my-5 flex justify-between items-center">
         <h2 className=" uppercase text-4xl text-gray-900 my-3 font-bold">
           Tu Carrito
         </h2>
+        <button className="text-white h-16 text-xl bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg px-5 py-2.5 text-center" onClick={clearCart}>
+          Limpiar carrito
+        </button>
       </div>
       <div className="h-12 bg-stone-800 grid grid-cols-6 uppercase text-lg text-white">
         <div className="flex items-center justify-center text-center col-span-3 font-semibold">
